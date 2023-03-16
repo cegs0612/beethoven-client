@@ -1,0 +1,15 @@
+.disclaimer{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.text{
+    max-width: 800px;
+    align-self: center;
+    margin: 10px;
+    padding: 5px;
+}
+.text>p{
+    color: white;
+}

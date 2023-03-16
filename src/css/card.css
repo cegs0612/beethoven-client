@@ -1,0 +1,42 @@
+.card{
+    border-color: #A67B56;
+    border: solid;
+    width: 430px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.card:hover{
+    border-color: #401801;
+    width: 450px;
+    transition: all 0.5s;
+}
+.card>img{
+    width: 350px;
+    height: auto;
+    object-fit: contain;
+}
+
+.card>p{
+    color: #401801;
+    height: 10px;
+}
+
+.card-button{
+    padding: 10px;
+    font-family: 'Dosis','sans-serif';
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: #820000;
+}
+.card-button:hover{
+    background-color: white;
+    color: #401801;
+    transition: all 0.5s;
+}

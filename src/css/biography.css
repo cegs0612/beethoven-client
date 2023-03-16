@@ -1,0 +1,39 @@
+.biography{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.dark{
+    width: auto;
+    
+}
+.pd{
+    color:white ;
+}
+.s{
+    padding: 15px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.light{
+    width: auto;
+}
+.pl{
+    color: white;
+}
+
+img{
+    object-fit: none;
+}
+@media (max-width:1000px) {
+    .s{
+        flex-wrap: wrap;
+    }
+    img{
+        width: 90vw;
+        padding: 0;
+    }
+}

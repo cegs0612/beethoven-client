@@ -1,0 +1,25 @@
+.bibliography{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.bibliography>h1{
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.container>p{
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: underline
+}

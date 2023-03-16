@@ -1,0 +1,17 @@
+.catalog{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.catalog>h1{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}

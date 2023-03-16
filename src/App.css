@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Zilla+Slab&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background:#820000;
+}
+
+.App{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+
+.App-body{
+  flex:1;
+}
+
+h1{
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+h2{
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  color: white; 
+}
+
+h3{
+  font-family: 'Dosis', sans-serif;
+  font-size: 35px;
+  color: white; 
+}
+
+h4{
+  font-family: 'Dosis', sans-serif;
+  font-size: 35px;
+  color: #820000;
+}
+
+p{
+  font-family: 'Zilla Slab','serif';
+  font-size:  20px; 
+  text-justify: distribute;
+}
