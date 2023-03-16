@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/biography.css";
-function Biography(props) {
+function Biography() {
     return(
         <div className="biography">
             <div className="dark s">

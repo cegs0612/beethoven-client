@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/home.css";
-function Home(props) {
+function Home() {
     return(
         <div className="home">
             <h1>Beethoven Sonatas' Blog</h1>

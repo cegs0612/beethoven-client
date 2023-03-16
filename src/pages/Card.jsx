@@ -13,7 +13,7 @@ function Card(props) {
             url:"/api/download",
             method: "POST",
             responseType: "blob",
-            baseURL:"http://localhost:3001",
+            baseURL:"https://beethovenserver.onrender.com",
             data:{"dirFile":dir_file}
         }).then((res)=>{
             const blobUrl = URL.createObjectURL(res.data)

@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/bibliography.css";
-function Bibliography(props) {
+function Bibliography() {
     return(
         <div className="bibliography">
             <h1>Bibliography</h1>

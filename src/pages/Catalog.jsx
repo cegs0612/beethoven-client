@@ -4,10 +4,10 @@ import Axios from "axios";
 import "../css/catalog.css";
 
 
-function Catalog(props) {
+function Catalog() {
     const [cards,setCards]=useState([]);
     useEffect(()=>{
-        Axios.get("http://localhost:3001/api/get")
+        Axios.get("https://beethovenserver.onrender.com/api/get")
         .then((res)=>setCards(res.data));
     },[]);
     

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/disclaimer.css";
 
-function Disclaimer(props) {
+function Disclaimer() {
     return(
         <div className="disclaimer">
             <h1>Disclaimer</h1>
