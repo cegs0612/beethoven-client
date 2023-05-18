@@ -2,7 +2,7 @@ import React from "react";
 import "../css/home.css";
 import Navbar from "../components/Navbar";
 import NavbarCell from "../components/NavbarCell";
-import  logo  from "../img/mainLogo.png";
+import  logo  from "../img/mainLogo.svg";
 import useWindowDimentions from "../hook/useWindowDimentions";
 
 function Home() {

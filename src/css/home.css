@@ -13,7 +13,7 @@
     background-size: cover;
 }
 img{
-    width: auto;
+    width: 80vw;
     height: auto;
 }
 @media (max-width:900px) {
