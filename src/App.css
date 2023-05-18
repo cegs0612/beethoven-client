@@ -39,7 +39,7 @@ p{
   color: white;
   line-height: 1.5;
 }
-@media (max-width:900px) {
+@media (max-width:1000px) {
   h1{
     font-size: 15px;
   }

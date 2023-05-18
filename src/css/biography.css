@@ -5,14 +5,16 @@
 }
 .text{
     width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    max-height: 90vh;
+    position: static;
+    margin: auto;
     padding: 30px;
+    overflow: scroll;
 }
 
 .portrait{
     width: 50vw;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +22,8 @@
 }
 .portrait>img{
     height: 600px;
-    width: 500px;
+    width: auto;
+    max-height: 95vh;
 }
 
 .bio1{
