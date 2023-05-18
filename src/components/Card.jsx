@@ -1,6 +1,7 @@
 import React from "react";
 import Axios from "axios";
 import FileDownloader from "js-file-downloader";
+import { motion } from "framer-motion";
 import "../css/card.css";
 
 
@@ -33,12 +34,22 @@ function Card(props) {
     let num = "";
     props.opus_number===0? num ="" : num = ` N° ${props.opus_number}`;
     return (
-        <div className="card">
-            <h4>Sonata {props.number}</h4>
+        <motion.div 
+            className="card"
+            whileHover={{scale: 1.1}}
+            transition={{duration: 0.3}}
+        >
+            <h2>Sonata {props.number}</h2>
             <img src={props.dir_img} alt="" />            
             <p>{opus}{num}</p>
-            <button className="card-button" onClick={handleDownload}>DOWNLOAD</button>
-        </div>
+            <motion.button 
+                className="card-button" 
+                onClick={handleDownload}
+                whileHover={{scale: 1.1,}}
+                whileTap={{scale:0.95}}
+                transition={{duration:0.3}}
+            >DOWNLOAD</motion.button>
+        </motion.div>
     )
     }
 

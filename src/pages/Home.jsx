@@ -1,13 +1,16 @@
 import React from "react";
 import "../css/home.css";
+import Navbar from "../components/Navbar";
+import NavbarCell from "../components/NavbarCell";
+import  logo  from "../img/mainLogo.png";
+import useWindowDimentions from "../hook/useWindowDimentions";
+
 function Home() {
+    let width = useWindowDimentions();
     return(
         <div className="home">
-            <h1>Beethoven Sonatas' Blog</h1>
-            <div className="img">
-                <img src="./img/beethoven_portrait.jpg" alt="" />
-            </div>
-            <p className="paragraph-dark">In this blog you will find a catalog of Beethoven's piano sonatas</p>
+            {width>=900? <Navbar visible={true}/> : <NavbarCell />}
+            <img src={logo} alt="Logo" />
         </div>
     );
 }

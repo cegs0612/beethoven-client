@@ -1,42 +1,38 @@
 .card{
-    border-color: #A67B56;
+    border-color: #1F262D;
     border: solid;
-    width: 430px;
+    width: 400px;
+
     padding-bottom: 15px;
     border-radius: 15px;
+
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: none;
 }
-.card:hover{
-    border-color: #401801;
-    width: 450px;
-    transition: all 0.5s;
-}
+
 .card>img{
     width: 350px;
     height: auto;
     object-fit: contain;
-}
-
-.card>p{
-    color: #401801;
-    height: 10px;
+    border-radius: 15px;
 }
 
 .card-button{
-    padding: 10px;
-    font-family: 'Dosis','sans-serif';
-    font-weight: 500;
-    font-size: 20px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #B18C3E;
     color: white;
-    border-radius: 5px;
-    background-color: #820000;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 .card-button:hover{
     background-color: white;
-    color: #401801;
-    transition: all 0.5s;
+    color: #3D4856;
 }

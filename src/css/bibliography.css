@@ -2,24 +2,31 @@
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
+    justify-content: center;
     padding: 15px;
+    height: 100vh;
+    background-image: url("../img/bg/biography1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-.bibliography>h1{
-    text-align: center;
-}
+
 .container{
-    max-width: 800px;
+    max-width: 1000px;
     align-self: center;
     margin-bottom: 15px;
 }
 
-.container>p{
-    color: white;
-}
 .link{
     text-decoration: none;
     color: white;
 }
 .link:hover{
     text-decoration: underline
+}
+
+@media (max-width:900px) {
+    .container{
+        width: 85vw;
+    }
 }

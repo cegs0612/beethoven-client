@@ -3,37 +3,93 @@
     display: -webkit-flex;
     flex-direction: column;
 }
-
-.dark{
-    width: auto;
-    
-}
-.pd{
-    color:white ;
-}
-.s{
-    padding: 15px;
+.text{
+    width: 50vw;
     display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    gap: 20px;
-}
-.light{
-    width: auto;
-}
-.pl{
-    color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
 }
 
-img{
-    object-fit: none;
+.portrait{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-@media (max-width:1000px) {
-    .s{
-        flex-wrap: wrap;
-    }
-    img{
-        width: 90vw;
-        padding: 0;
-    }
+.portrait>img{
+    height: 600px;
+    width: 500px;
+}
+
+.bio1{
+    height: 100vh;
+    background-image: url("../img/bg/biography1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.bio2{
+    height: 100vh;
+    background-image: url("../img/bg/biography2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.bio3{
+    height: 100vh;
+    background-image: url("../img/bg/biography3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.bio4{
+    height: 100vh;
+    background-image: url("../img/bg/biography4.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.bio5{
+    height: 100vh;
+    background-image: url("../img/bg/biography5.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.bio-cell{
+    width: 90vw;
+    height: calc(100vh - 85px);
+    position: relative;
+    margin: 0 auto;
+    top: 70px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow:scroll;
+}
+.bio-cell>img{
+    width: 90%;
+    height: auto;
+    padding: 5px ;
+    margin: 0 auto;
+}
+
+@media (max-width:900px) {
+    .bio1{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    };
 }
