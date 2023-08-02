@@ -32,6 +32,13 @@
     background-size: cover;
     overflow-y: scroll;
 }
+.loader{
+    color: "#B18C3E";
+    height: 50px; 
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
 
 @media (max-width:900px) {
     .catalog>h1{
